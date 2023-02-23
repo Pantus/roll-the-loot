@@ -1,0 +1,19 @@
+{
+  "id": "roll-the-loot",
+  "title": "Roll the Loot - Use RollTables to fill dead NPCs with loot",
+  "description": "Use RollTables to fill dead NPCs with loot",
+  "authors": [
+    {
+    "name": "Pantus"
+    }
+    ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  "scripts": [
+    "scripts/roll-the-loot.js"
+  ],
+  "socket": true
+}

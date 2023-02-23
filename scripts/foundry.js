@@ -1,0 +1,1 @@
+E:/Foundry/FoundryV10/code/resources/app/public/scripts/foundry.js
