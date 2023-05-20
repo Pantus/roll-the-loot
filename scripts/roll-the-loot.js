@@ -8,7 +8,7 @@ Hooks.on("updateActor", async (actor, update, diff, user) => {
 function rollForLoot(actor) {
     const actorName = actor.prototypeToken.name;
     const lootTable = game.tables.find(t => t.name === actorName);
-    lootTable.draw().then(
+    lootTable.draw({displayChat: false}).then(
         handleRolledItems.bind(null, actor),
         (error) => {console.error(error)}
     );   
