@@ -25,11 +25,11 @@
       }
     }],
     "requires": [{
-        "id": "lootsheet-simple",
+        "id": "item-piles",
         "type": "module",
-        "manifest": "https://raw.githubusercontent.com/jopeek/fvtt-loot-sheet-npc-5e/lootsheet-simple/module.json",
+        "manifest": "https://github.com/fantasycalendar/FoundryVTT-ItemPiles/releases/latest/download/module.json",
         "compatibility": {
-          "verified": "11.231.3"
+          "verified": "2.7.18"
         }
       }, {
         "id": "better-rolltables",
